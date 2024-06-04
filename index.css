@@ -1,0 +1,27 @@
+.body{
+    line-height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.star{
+    color: #eeac82;
+    font-size: x-large;
+}
+.required:after {
+    content:" *";
+    color: red;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (max-width : 478px){
+  .star{
+    font-size: medium;
+  }
+  .row{
+    font-size:small;
+    font-weight: bold;
+  }
+}
